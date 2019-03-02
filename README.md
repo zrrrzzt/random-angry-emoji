@@ -1,11 +1,11 @@
 # random-angry-emoji
 
-Returns a random angry emoji
+Returns a random angry/negative emoji
 
 ```JavaScript
 const randomAnger = require('random-angry-emoji')
 
-console.log(randomAnger()) // => verdana
+console.log(randomAnger()) // => 🤮
 ```
 
 # License
