@@ -1,0 +1,49 @@
+{
+  "name": "random-angry-emoji",
+  "version": "1.0.0",
+  "description": "Returns a random angry emoji",
+  "main": "index.js",
+  "engines": {
+    "node": ">=10.15.2"
+  },
+  "dependencies": {
+    "crypto-shuffle": "1.0.1"
+  },
+  "devDependencies": {
+    "ava": "1.2.1",
+    "nyc": "13.3.0",
+    "standard": "12.0.1"
+  },
+  "scripts": {
+    "test": "standard && npm audit && ava",
+    "test-offline": "standard && ava",
+    "coverage": "nyc ava",
+    "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls",
+    "standard-fix": "standard --fix",
+    "refresh": "rm -rf node_modules && rm package-lock.json && npm install"
+  },
+  "keywords": [
+    "emoji",
+    "random",
+    "angry",
+    "useless"
+  ],
+  "author": {
+    "name": "Geir Gåsodden",
+    "email": "geir.gasodden@pythonia.no",
+    "url": "https://github.com/zrrrzzt"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zrrrzzt/random-angry-emoji.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zrrrzzt/random-angry-emoji/issues"
+  },
+  "homepage": "https://github.com/zrrrzzt/random-angry-emoji#readme",
+  "files": [
+    "lib/*.{js,json}",
+    "index.js"
+  ]
+}
