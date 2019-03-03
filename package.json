@@ -1,7 +1,7 @@
 {
   "name": "random-angry-emoji",
   "version": "1.0.0",
-  "description": "Returns a random angry emoji",
+  "description": "Returns a random angry/negative emoji",
   "main": "index.js",
   "engines": {
     "node": ">=10.15.2"
@@ -11,6 +11,7 @@
   },
   "devDependencies": {
     "ava": "1.2.1",
+    "coveralls": "3.0.3",
     "nyc": "13.3.0",
     "standard": "12.0.1"
   },
