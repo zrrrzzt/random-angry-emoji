@@ -10,7 +10,7 @@
     "crypto-shuffle": "1.0.1"
   },
   "devDependencies": {
-    "ava": "2.2.0",
+    "ava": "2.3.0",
     "coveralls": "3.0.6",
     "nyc": "14.1.1",
     "standard": "13.1.0"
