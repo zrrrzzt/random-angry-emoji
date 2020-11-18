@@ -13,7 +13,7 @@
     "ava": "3.13.0",
     "coveralls": "3.1.0",
     "nyc": "15.1.0",
-    "standard": "16.0.2"
+    "standard": "16.0.3"
   },
   "scripts": {
     "test": "standard && npm audit && ava",
