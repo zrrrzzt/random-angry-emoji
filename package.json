@@ -1,6 +1,6 @@
 {
   "name": "random-angry-emoji",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "description": "Returns a random angry/negative emoji",
   "main": "index.js",
   "engines": {
